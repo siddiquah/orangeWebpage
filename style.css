@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", "sans-serif";
+  text-decoration: none;
+  list-style: none;
+}
+.bg {
+  background-image: url(tropichouse1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25vh;
+}
+.homeTxt {
+  color: white;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 32vh;
+  letter-spacing: 16px;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  height: 100%;
+  align-items: center;
+}
+
+.topNav li a {
+  color: black;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.right {
+  width: 30vw;
+  text-align: center;
+}
+
+input {
+  border: 2px solid #bfbfbf;
+  padding: 6px 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #0000003a;
+  outline: none;
+  color: #bfbfbf;
+}
+
+.navigation {
+  margin-top: 5px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #ed9646;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  width: 50vw;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  margin-top: 50px;
+}
+
+p {
+  width: 49vw;
+  font-weight: 200;
+  line-height: 1.3;
+  border: 3px solid black;
+  padding: 30px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+/* .line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 700px;
+  height: 3px;
+  background-color: black;
+} */
+
+.title {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.lastNav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #ed9646;
+  padding: 20px;
+}
+
+.lastNav li a {
+  color: white;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.contact {
+  background: #515050;
+  color: #fff;
+  padding: 20px 100px 60px 100px;
+  display: flex;
+  width: 100vw;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.p2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.p3 {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #a0c96e;
+  color: #fff;
+  text-align: right;
+  padding: 17px;
+  padding-right: 40px;
+  font-weight: 400;
+}
